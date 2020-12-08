@@ -1,0 +1,72 @@
+
+
+
+.top_bg {
+  background: url(../img/top_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo {
+  font-size: 22px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+.nav a {
+  font-size:16px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+.nav a:hover {
+  opacity: .7;
+}
+
+.header {
+  margin-bottom: calc((150 / 1200)*100vw);
+}
+
+.header div a{
+  font-weight: bold;
+}
+  
+.main h1,.mian p {
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+
+.main p {
+  font-size:22px;
+}
+
+
+.top_menu h1 {
+  text-align: center;
+}
+
+.top_menu h1::before,.top_menu h1::after {
+  content: "-";
+  margin: 0 10px;
+}
+
+.form-in {
+  background: rgba(255,255,255,0.7);
+  border-radius: 5px;
+}
+
+.form-h {
+  font-size: 24px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+.form-p {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+    font-family: "M PLUS Rounded 1c",sans-serif;
+
+}
+
+.contact-bg {
+  background: url(../img/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
